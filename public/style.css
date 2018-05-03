@@ -1,0 +1,62 @@
+h1 {
+    color:white;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 24px;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+.col-sm-8 {
+    border-radius: 4px;
+}
+
+.col-sm-4 {
+    border-radius: 4px;
+}
+
+.bottom {
+    margin-top: 4px;
+    background-color: rgba(146, 192, 146, 0.644);
+}
+
+.col-sm-3 {
+    font-size: 20px;
+    padding: 30px 0px;
+    background-color: rgba(183, 204, 243, 0.644);
+}
+
+.col {
+    display: inline-flex;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.change-column {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
