@@ -73,7 +73,7 @@ class App extends Component {
         <div className='row'>
           <div className='col-sm-4'>
             <div className='panel panel-default'>
-              <div className='panel panel-heading'>Enter Information</div>
+              <div className='panel panel-heading panel-title'>Enter Information</div>
               <div className='panel-body'>
                 <strong>How much is due?</strong>
                 <br />
@@ -94,12 +94,11 @@ class App extends Component {
                   onChange={this.handleReceived}
                   value={this.state.amountReceived} />
               </div>
-              <div className='panel'>
-                <div className='panel-body'>
+              <div className='panel panel-default'>
+                <div className='panel panel-footer'>
                   <button type='button'
                     className='btn btn-primary'
                     onClick={this.onCalculate}>Calculate</button>
-                  <div className='alert alert-success'>{this.state.changeDue}</div>
                 </div>
               </div>
             </div>
@@ -107,20 +106,19 @@ class App extends Component {
           <div className='col-sm-8'>
             <div className='panel panel-default'>
               <div className='alert'>
-                <div className='alert alert-success'></div>
-                <div className='alert alert-danger'></div>
+              <div className='alert alert-success'>{this.state.changeDue}</div>
                 <div className='container change-column'>
                   <div className='row'>
-                    <div className='col-sm-3'><strong>Twenties</strong> <br /><span>{this.state.twenties}</span></div>
-                    <div className='col-sm-3'><strong>Tens</strong> <br /><span>{this.state.tens}</span></div>
-                    <div className='col-sm-3'><strong>Fives</strong> <br /><span>{this.state.fives}</span></div>
-                    <div className='col-sm-3'><strong>Ones</strong> <br /><span>{this.state.ones}</span></div>
+                    <div className='col-sm-3'>Twenties <br /><span>{this.state.twenties}</span></div>
+                    <div className='col-sm-3'> Tens  <br /><span>{this.state.tens}</span></div>
+                    <div className='col-sm-3'> Fives  <br /><span>{this.state.fives}</span></div>
+                    <div className='col-sm-3'> Ones  <br /><span>{this.state.ones}</span></div>
                   </div>
                   <div className='row bottom'>
-                    <div className='col-sm-3'><strong>Quarters</strong> <br /><span>{this.state.quarters}</span></div>
-                    <div className='col-sm-3'><strong>Dimes</strong> <br /><span>{this.state.dimes}</span></div>
-                    <div className='col-sm-3'><strong>Nickels</strong> <br /><span>{this.state.nickels}</span></div>
-                    <div className='col-sm-3'><strong>Pennies</strong> <br /><span>{this.state.pennies}</span></div>
+                    <div className='col-sm-3'> Quarters  <br /><span>{this.state.quarters}</span></div>
+                    <div className='col-sm-3'> Dimes  <br /><span>{this.state.dimes}</span></div>
+                    <div className='col-sm-3'> Nickels  <br /><span>{this.state.nickels}</span></div>
+                    <div className='col-sm-3'> Pennies  <br /><span>{this.state.pennies}</span></div>
                   </div>
                 </div>
               </div>
