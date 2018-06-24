@@ -13,7 +13,7 @@ p {
 
 span {
     font-size: 24px;
-    color: rgb(128, 128, 128);
+    color: rgb(99, 99, 99);
     margin-top: 20px;
 }
 
@@ -27,12 +27,12 @@ span {
 
 .bottom {
     margin-top: 4px;
-    background-color: rgba(146, 192, 146, 0.644);
 }
 
 .col-sm-3 {
     font-size: 20px;
     padding: 30px 10px;
+    margin: 1px;
     background-color: rgba(183, 204, 243, 0.644);
 }
 
@@ -71,4 +71,8 @@ span {
 
 .alert {
     text-align: center;
+}
+
+.row {
+    display: flex;
 }
